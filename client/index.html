@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SafeSend Client</title>
+</head>
+<body>
+  <h1>SafeSend File Transfer</h1>
+
+  <label>Your ID: <input id="clientId" /></label><br />
+  <label>Send To: <input id="targetId" /></label><br />
+  <input type="file" id="fileInput" /><br />
+  <button onclick="connect()">Connect</button>
+  <button onclick="sendFile()">Send File</button>
+
+  <pre id="log"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
